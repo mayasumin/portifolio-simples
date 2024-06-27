@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    gap: 1rem;
+}
+
+main img {
+    width: 33rem;
+}
+
+main .left-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+main .container-text {
+    width: 37.0625rem;
+}
+
+main .container-text h1 {
+    font: normal 400 2.25rem/3.5rem "Krona One", sans-serif;
+    color: white;
+}
+
+main .container-text strong {
+    color: #22D4FD;
+}
+
+main .container-text p, footer p {
+    font: normal 400 1rem/2rem "Montserrat", sans-serif;
+}
+
+main .buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+main .buttons button {
+    border: none;
+    border-radius: 1rem;
+    width: 17.5rem;
+    height: 5rem;
+    background-color: #22D4FD;
+}
+
+.buttons button a {
+    font: normal 600 1.5rem/2.25rem "Montserrat", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
